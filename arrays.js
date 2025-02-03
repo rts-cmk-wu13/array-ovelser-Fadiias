@@ -5,13 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let numbersArray = [12, 4, 45, 17, 2, 26, 7, 55, 48, 32, 21]
 
     // --- Løs opgaverne herunder --- 
-    console.log(catsArray.length);
-    console.log(catsArray.join('-'));
-    console.log(dogsArray.length);
-    console.log(dogsArray.join('-'));
-    console.log(fruitsArray.length);
-    console.log(fruitsArray.join('-'));
-    console.log(numbersArray.length);
-    console.log(numbersArray.join('-'));
+const newnumbes=numbersArray.filter(function(number){
+    return number>20 
+})
+console.log(newnumbes);
+
     
 }) // ends DOMContentLoaded
